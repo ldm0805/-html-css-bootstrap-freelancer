@@ -7,3 +7,15 @@
 .outline{
     outline: 1px solid black;
 }
+
+.bg_cl_lightblue{
+    background-color: #1ABC9C;
+}
+
+.bg_cl_bluegray{
+    background-color: #2C3E50;
+}
+
+.bg_cl_lightbluegray{
+    background-color: #3A546D;
+}
