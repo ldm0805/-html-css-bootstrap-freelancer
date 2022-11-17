@@ -13,6 +13,10 @@
     color: white !important;
 }
 
+.bg-color-white{
+    background-color: white !important;
+}
+
 .bg-send{
     background-color: #1abc9c;
     border: #1abc9c;
@@ -86,6 +90,11 @@ header{
     font-size: .8em;
 }
 
+footer .btn{
+    border-radius: 100%;
+    
+}
+
 /* stella */
 
 
@@ -98,7 +107,7 @@ header{
 }
 .star-line .line {
   width: 100%;
-  max-width: 9em;
+  width: 8em;
   height: 0.25em;
   background-color: rgb(44, 62, 80);
   border-radius: 1em;
