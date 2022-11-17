@@ -10,7 +10,7 @@
 }
 
 .txt-white{
-    color: white;
+    color: white !important;
 }
 
 .bg-send{
@@ -43,10 +43,27 @@ header, .copyright{
     background-color: #3A546D;
 }
 
+.mt_3em{
+    margin-top: 3em;
+}
+
+.bg-light{
+    background-color: #2C3E50 !important;
+}
+
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
 /* Header */
 
 header{
-    height: 3em;
+    height: 5em;
     position: fixed;
     top: 0;
     left: 0;
