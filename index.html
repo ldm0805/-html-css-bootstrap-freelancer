@@ -8,7 +8,8 @@
         <link rel="stylesheet" href="./css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Esercizio Bootstrap</title>
     </head>
         <body>
@@ -16,14 +17,14 @@
           <!-- Header -->
 
           <header>
-            <div class="container">
-              <div class="row justify-content-between ">
-                <div class="col-6 outline">
+            <div class="container h-100">
+              <div class="row justify-content-between h-100">
+                <div class="col-6 d-flex align-self-center ">
                   <div class="content w-100">
                     <h2 class="strong-title-white">START BOOTSTRAP</h2>
                   </div>
                 </div>
-                <div class="col-6 outline d-flex justify-content-end">
+                <div class="col-6 d-flex align-self-center justify-content-end">
                   <div class="content">
                     Column Header
                   </div>
@@ -40,19 +41,20 @@
             <section class="bootstrap">
               <div class="container-fluid">
                 <div class="row">
-                <div class="col-sm-12 outline d-flex justify-content-center">
-                  <div class="content">
-                    Column Bootstrap
+                <div class="col-sm-12 d-flex justify-content-center">
+                  <div class="content w-50">
+                    <img class="w-100" src="./img/avatar.svg" alt="avatar">
+                    <h4 class="big-title text-center txt-white my-3">START BOOTSTRAP</h4> 
+                    <div class="star-line ">
+                      <div class="line star-bg-blu"></div>
+                      <div class="star"><i class="fas fa-star mx-2 star-cl-white"></i></div>
+                      <div class="line star-bg-blu"></div>
+                    </div>
                   </div>
                 </div>
-                <div class="col-sm-12 outline d-flex justify-content-center">
+                <div class="col-sm-12 d-flex justify-content-center">
                   <div class="content">
-                    Column Bootstrap
-                  </div>
-                </div>
-                <div class="col-sm-12 outline d-flex justify-content-center">
-                  <div class="content">
-                    Column Bootstrap
+                    <p class="txt-white">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                   </div>
                 </div>
               </div>
@@ -65,8 +67,13 @@
               <div class="container">
                 <div class="row g-2 my-3">
                   <div class="col-sm-12 col-md-12 d-flex justify-content-center">
-                  <div class="content">
-                    <h4><strong class="txt-black">PORTFOLIO</strong></h4> 
+                  <div class="content w-75">
+                    <h4 class="text-center"><strong class="txt-black">PORTFOLIO</strong></h4> 
+                    <div class="star-line">
+                      <div class="line"></div>
+                      <div class="star"><i class="fas fa-star mx-2"></i></div>
+                      <div class="line"></div>
+                    </div>
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
@@ -103,29 +110,34 @@
             </div>
           </section>
 
-            <hr class="my-5"> 
+
             <!-- About -->
           <section class="about">
             <div class="container">
-              <div class="row">
+              <div class="row my-5 py-3">
                 <div class="col-sm-12 outline d-flex justify-content-center">
                   <div class="content">
-                    Column About
+                    <h2 class="strong-title-white">About</h2>
+                    <div class="star-line">
+                      <div class="line"></div>
+                      <div class="star"><i class="fas fa-star mx-2"></i></div>
+                      <div class="line"></div>
+                    </div>
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-6 outline">
                   <div class="content">
-                    Column About
+                    <p class="txt-white">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-6 outline">
                   <div class="content">
-                    Column About
+                    <p class="txt-white">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
                   </div>
                 </div>
                 <div class="col-sm-12 outline d-flex justify-content-center">
                   <div class="content">
-                    Column About
+                    <button type="button" class="btn btn-outline-light"> <i class="fas fa-download me-2"></i><strong>Download</strong></button>
                   </div>
                 </div>
               </div>

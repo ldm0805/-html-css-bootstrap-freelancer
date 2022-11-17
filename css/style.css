@@ -9,6 +9,19 @@
     color: black;
 }
 
+.txt-white{
+    color: white;
+}
+
+.bold{
+    font-size: bold;
+}
+
+.big-title{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
 .outline{
     outline: 1px solid black;
 }
@@ -25,7 +38,10 @@ header, .copyright{
     background-color: #3A546D;
 }
 
+/* Header */
+
 header{
+    height: 3em;
     position: fixed;
     top: 0;
     left: 0;
@@ -38,3 +54,37 @@ header{
     font-size: 1.2em;
     
 }
+
+.bootstrap p{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.txt-size{
+    font-size: .8em;
+}
+
+/* stella */
+
+
+.star-line {
+  margin: 1.25em 0 1.5em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.star-line .line {
+  width: 100%;
+  max-width: 9em;
+  height: 0.25em;
+  background-color: rgb(44, 62, 80);
+  border-radius: 1em;
+}
+
+.star-line .star {
+  color: rgb(43, 62, 80);
+  font-size: 2em;
+}
+
+
