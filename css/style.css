@@ -13,6 +13,11 @@
     color: white;
 }
 
+.bg-send{
+    background-color: #1abc9c;
+    border: #1abc9c;
+}
+
 .bold{
     font-size: bold;
 }
