@@ -5,6 +5,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Common */
+
 .txt-black{
     color: black;
 }
@@ -13,17 +15,12 @@
     color: white !important;
 }
 
-.bg-color-white{
-    background-color: white !important;
-}
+
+/* Colori sfondo */
 
 .bg-send{
     background-color: #1abc9c;
     border: #1abc9c;
-}
-
-.bold{
-    font-size: bold;
 }
 
 .big-title{
@@ -31,8 +28,8 @@
     font-weight: 900;
 }
 
-.outline{
-    outline: 1px solid black;
+.bg-light{
+    background-color: #2C3E50 !important;
 }
 
 header, .copyright{
@@ -47,15 +44,7 @@ header, .copyright{
     background-color: #3A546D;
 }
 
-.mt_3em{
-    margin-top: 3em;
-}
-
-.bg-light{
-    background-color: #2C3E50 !important;
-}
-
-
+/* Navbar */
 .navbar-expand-lg .navbar-collapse{
     justify-content: flex-end;
 }
@@ -86,9 +75,7 @@ header{
     font-weight: bold;
 }
 
-.txt-size{
-    font-size: .8em;
-}
+/* Footer */
 
 footer .btn{
     border-radius: 100%;
@@ -96,7 +83,6 @@ footer .btn{
 }
 
 /* stella */
-
 
 .star-line {
   margin: 1.25em 0 1.5em;
@@ -116,6 +102,10 @@ footer .btn{
 .star-line .star {
   color: rgb(43, 62, 80);
   font-size: 2em;
+}
+
+.bg-color-white{
+    background-color: white !important;
 }
 
 
