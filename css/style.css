@@ -40,6 +40,12 @@ header, .copyright{
     background-color: #1ABC9C;
 }
 
+
+.link-reset{
+    text-decoration: none;
+    color: #1ABC9C;
+}
+
 .location{
     background-color: #3A546D;
 }
